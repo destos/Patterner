@@ -1,0 +1,20 @@
+site_name: Patterner
+site_description: Make patterns for sewing projects
+site_author: Patrick Forringer
+
+repo_url: https://github.com/destos/patterner
+edit_uri: https://github.com/destos/patterner/edit/master/docs
+
+theme: readthedocs
+
+markdown_extensions:
+  - codehilite:
+      linenums: true
+
+nav:
+- Home: index.md
+- Advanced: advanced.md
+- About:
+  - Release Notes: about/changelog.md
+  - Contributing: about/contributing.md
+  - License: about/license.md
